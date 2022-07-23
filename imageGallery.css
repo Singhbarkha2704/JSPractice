@@ -1,0 +1,26 @@
+img{
+    /* width:200px;
+    height:30vh; */
+    padding: 10px !important;
+    transition: transform .2s;
+    width: 70px;
+    height: 150px;
+    /* margin: 0 auto; */
+}
+
+img:hover{
+    /* width: 500px;
+    height: 40vh; */
+    /* left: 20px;
+  top: -150px; */
+  transform: scale(1.2); 
+  box-shadow: 0 0.125rem 0.675rem rgb(0 0 0 / 40%);
+  /* transform: scale(2,3); */
+  
+}
+a{
+    color: white !important;
+}
+.card{
+    margin: 8px;
+}
