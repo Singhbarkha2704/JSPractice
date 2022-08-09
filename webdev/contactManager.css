@@ -1,0 +1,44 @@
+body{
+    background-color:cornsilk;
+}
+h1{
+    text-align: center;
+    color:teal;
+    text-transform: uppercase;
+    text-shadow: cornsilk;
+    font-weight: bolder;
+    margin-bottom: 14px;
+    margin-top: 12px;
+}
+.btn{
+    margin:0.326rem 0.125rem;
+    
+}
+/* how to center child element */
+.links{
+    display:flex;
+    justify-content: center;
+}
+.custom-card{
+    box-shadow: 9px;
+    background-color: bisque;
+    margin: 0.325rem;
+    border-color: cadetblue;
+}
+.custom-card:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0.125rem 0.675rem rgb(0 0 0 / 40%);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+.contact-container{
+    background-color: indianred;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
